@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm install --prefix ecocode-main && npm run build --prefix ecocode-main",
+  "outputDirectory": "ecocode-main/build",
+  "installCommand": "npm install --prefix ecocode-main",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
